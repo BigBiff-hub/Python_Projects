@@ -9,6 +9,7 @@ CHAR_AMOUNT = int(CHAR_AMOUNT)
 
 chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!#$%&'()*+,-./:;<=>?@[\]^_`{|}~"
 print("Here are your passwords!!")
+# make sure range is correct
 
 for p in range(0, PASS_AMOUNT):
     pwd = ''
